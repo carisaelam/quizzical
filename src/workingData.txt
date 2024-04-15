@@ -1,0 +1,127 @@
+
+const categories = {
+  trivia_categories: [
+    {
+      id: 9,
+      name: "General Knowledge",
+    },
+    {
+      id: 10,
+      name: "Entertainment: Books",
+    },
+    {
+      id: 11,
+      name: "Entertainment: Film",
+    },
+    {
+      id: 12,
+      name: "Entertainment: Music",
+    },
+    {
+      id: 13,
+      name: "Entertainment: Musicals & Theatres",
+    },
+    {
+      id: 14,
+      name: "Entertainment: Television",
+    },
+    {
+      id: 15,
+      name: "Entertainment: Video Games",
+    },
+    {
+      id: 16,
+      name: "Entertainment: Board Games",
+    },
+    {
+      id: 17,
+      name: "Science & Nature",
+    },
+    {
+      id: 18,
+      name: "Science: Computers",
+    },
+    {
+      id: 19,
+      name: "Science: Mathematics",
+    },
+    {
+      id: 20,
+      name: "Mythology",
+    },
+    {
+      id: 21,
+      name: "Sports",
+    },
+    {
+      id: 22,
+      name: "Geography",
+    },
+    {
+      id: 23,
+      name: "History",
+    },
+    {
+      id: 24,
+      name: "Politics",
+    },
+    {
+      id: 25,
+      name: "Art",
+    },
+    {
+      id: 26,
+      name: "Celebrities",
+    },
+    {
+      id: 27,
+      name: "Animals",
+    },
+    {
+      id: 28,
+      name: "Vehicles",
+    },
+    {
+      id: 29,
+      name: "Entertainment: Comics",
+    },
+    {
+      id: 30,
+      name: "Science: Gadgets",
+    },
+    {
+      id: 31,
+      name: "Entertainment: Japanese Anime & Manga",
+    },
+    {
+      id: 32,
+      name: "Entertainment: Cartoon & Animations",
+    },
+  ],
+};
+
+
+9 = general knowledge
+10 = books
+11 = Film
+12 = Music
+13 = musicals & theater
+14 = television
+15 = video games 
+16 = board games 
+17 = science & nature
+18 = Computers
+19 = Mathematics
+20 = mythology
+21 = Sports
+22 = Geography
+23 = History
+24 = Politics
+25 = Art
+26 = Celebrities
+27 = Animals
+28 = Vehicles
+29 = Comics
+30 = Gadgets
+31 = japanese anime and Manga
+32 = cartoon & animations

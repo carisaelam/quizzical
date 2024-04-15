@@ -1,0 +1,52 @@
+main {
+  display: grid;
+  grid-template: auto / 1fr 5fr;
+  gap: 1rem;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.instructions {
+  position: sticky;
+  top: 8rem;
+  height: 100vh;
+  overflow-y: auto;
+  min-width: 10rem;
+}
+
+.question__item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 25rem;
+  box-shadow: 0 0 10px grey;
+  border-radius: 0.75rem;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer:hover {
+  cursor: pointer;
+}
+
+.answer.correct {
+  color: green;
+}
+
+.answer.incorrect {
+  color: red;
+}
+
+@media (max-width: 40rem){
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instructions {
+    position: inherit;
+  }
+}
