@@ -117,7 +117,8 @@ export default function QuestionItem(props) {
   ];
 
   const buttonText =
-    clickedAnswers.length !== totalQuestions ? "Start!" : "Reset";
+    // clickedAnswers.length !== totalQuestions ? "Get New Quiz" : "Start!";
+    "Play!";
 
   return (
     <main>
@@ -131,6 +132,14 @@ export default function QuestionItem(props) {
         <p className="category__description">Number between 9 and 32</p>
         <button onClick={resetGame} className="reset__button">
           {buttonText}
+        </button>
+        <button
+          className="reload__button"
+          onClick={() => {
+            location.reload();
+          }}
+        >
+          Refresh
         </button>
         {categoryText.map((categoryObj, index) => {
           const categoryId = Object.keys(categoryObj)[0];

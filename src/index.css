@@ -1,5 +1,11 @@
+#root {
+  width: 100vw;
+  margin: 0;
+}
+
 main {
   display: grid;
+  min-width: 100vw;
   grid-template: auto / 1fr 5fr;
   gap: 1rem;
   padding: 1rem;
@@ -14,12 +20,16 @@ main {
   min-width: 10rem;
 }
 
+.questions {
+  max-width: 35rem;
+}
+
 .question__item {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  margin: 1rem 0;
-  width: 25rem;
+  margin: 1rem 0.5rem;
+  max-width: 100%;
   box-shadow: 0 0 10px grey;
   border-radius: 0.75rem;
 }
@@ -40,7 +50,7 @@ main {
   color: red;
 }
 
-@media (max-width: 40rem){
+@media (max-width: 40rem) {
   main {
     display: flex;
     flex-direction: column;

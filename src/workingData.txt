@@ -1,3 +1,22 @@
+TO DO 
+✅ fix reset button text 
+make options into dropdown
+update styling 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const categories = {
   trivia_categories: [
@@ -101,6 +120,10 @@ const categories = {
 };
 
 
+
+
+
+const text = {
 9 = general knowledge
 10 = books
 11 = Film
@@ -125,3 +148,4 @@ const categories = {
 30 = Gadgets
 31 = japanese anime and Manga
 32 = cartoon & animations
+}
